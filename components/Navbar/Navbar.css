@@ -1,4 +1,11 @@
 @media (min-width :1280px){
+  .sidebar {
+    display: none;
+  }
+  
+  .sidebar{
+    display: none;
+  }
   .rectangle-24-mini{
     visibility:hidden;
   }
@@ -201,6 +208,9 @@
 /*  new screen size*/
 
 @media (min-width :1024px){
+  .sidebar{
+    display: none;
+  }
   .rectangle-24-mini{
     visibility:hidden;
   }
@@ -374,6 +384,10 @@
 
 
   @media (max-width: 1024px) {
+    .sidebar {
+      display: none;
+    }
+    
 
     /* Add this CSS inside the media query for frame-24 */
 .frame-24 {
@@ -456,4 +470,256 @@
   .home {
     display: none;
   }
+  .sidebar {
+    display: none;
+    transform: translateX(-100%); /* Move the sidebar off-screen */
+    transition: transform 0.3s ease-out; /* Add a transition effect on the transform property */
+}
+
+.sidebar.visible {
+    display: block;
+    transform: translateX(0); /* Move the sidebar into view */
+    /* Add styling for the visible sidebar here */
+}
+
+
+.rectangle-17-side-bar {
+  background: #111111;
+  width: 242px;
+  height: 696px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-12-side-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  left: 28px;
+  top: 130px;
+}
+.homebutton-sidebar {
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+  left: -30px;
+}
+
+.nav-text {
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home1 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inder-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 104%;
+  font-weight: 400;
+  position: relative;
+  left:-10px;
+}
+.frame-16-side-bar {
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.nav-icon2 {
+  flex-shrink: 0;
+  width: 70px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+  left: -40px;
+}
+.frame-15-side-bar {
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.nav-icon3 {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+  left:-30px;
+}
+.frame-14-side-bar {
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.nav-icon4 {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+  left: -30px;
+}
+.frame-13-side-bar {
+  border-radius: 8px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.nav-icon5 {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: visible;
+  left:-30px;
+}
+.nav-text2 {
+  padding: 0px 10px 0px 5px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.home2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inder-Regular", sans-serif;
+  font-size: 20px;
+  line-height: 104%;
+  font-weight: 400;
+  opacity: 0.6000000238418579;
+  position: relative;
+}
+.logo-side-bar {
+  width: 148px;
+  height: 57px;
+  position: absolute;
+  left: 28px;
+  top: 24px;
+}
+.tutors {
+  color: #3e00a4;
+  text-align: left;
+  font-family: "ImFellGreatPrimerSc-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 104%;
+  font-weight: 400;
+  position: absolute;
+  right: -4.73%;
+  left: 35.14%;
+  width: 69.59%;
+  bottom: -3.51%;
+  top: 45.61%;
+  height: 57.89%;
+}
+.tarang {
+  color: #ffffff;
+  text-align: left;
+  font-family: "ImFellGreatPrimerSc-Regular", sans-serif;
+  font-size: 32px;
+  line-height: 104%;
+  font-weight: 400;
+  position: absolute;
+  right: 30.41%;
+  left: 0%;
+  width: 69.59%;
+  bottom: 42.11%;
+  top: 0%;
+  height: 57.89%;
+}
+.login-side-bar {
+  background: #3e00a4;
+  border-radius: 12px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 97px;
+  top: 604px;
+}
+.login {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-SemiBold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  position: relative;
+}
+
+
+.rectangle-21 {
+  background: #ffffff;
+  border-radius: 37px;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.user-07-b {
+  border-radius: 100px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  width: 100%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+  overflow: hidden;
+}
+.user-07-b2 {
+  height: auto;
+  position: absolute;
+  left: 4.8px;
+  top: 5.34px;
+  overflow: visible;
+}
+
+
+  
   }
+
+  
+  
+/* Add similar transition effects to other child elements if needed */
