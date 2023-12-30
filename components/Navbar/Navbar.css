@@ -1,4 +1,9 @@
+
 @media (min-width :1280px){
+  .navbar{
+    position: fixed;
+    width: 100%;
+  }
   .sidebar {
     display: none;
   }
@@ -156,7 +161,6 @@
   right: 19.36%;
   left: 70%;
   top: 20px;
-  overflow: ;
 }
 .vector {
   height: auto;
