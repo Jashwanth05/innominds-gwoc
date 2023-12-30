@@ -26,7 +26,7 @@ const Home = () => {
   return (
 <div class="frame-1">
   <div class="group-3">
-  <img class="boy-and-girl" src={boyandgirl} alt="boyandgirl"/>
+   <img class="boy-and-girl" src={boyandgirl} alt="boyandgirl"/>
     <div class="frame-3">
       <div class="learn-with-love">Learn with Love</div>
       <div class="the-ultimate-guide-to-ace-sde-interviews">
