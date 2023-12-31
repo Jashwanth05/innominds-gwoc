@@ -204,7 +204,7 @@ const Home = () => {
     <br />
     Top Collages
   </div>
-  <div class="line-6"></div>
+
   <div class="what-would-you-like-to-learn">
     <span>
       <span class="what-would-you-like-to-learn-span">
@@ -306,26 +306,25 @@ const Home = () => {
       </div>
     </div>
     <div class="frame-192">
-      <div
-        class="mathematics-data-structures-are-the-problem-solving-pillars-of-coding-learn-all-the-foundational-knowledge-about-all-of-the-popular-data-structure-that-you-need-to-be-well-versed-in-interviews2"
-      >
-        <span>
-          <span
-            class="mathematics-data-structures-are-the-problem-solving-pillars-of-coding-learn-all-the-foundational-knowledge-about-all-of-the-popular-data-structure-that-you-need-to-be-well-versed-in-interviews-2-span"
-          >
-            Mathematics
-            <br />
-          </span>
-          <span
-            class="mathematics-data-structures-are-the-problem-solving-pillars-of-coding-learn-all-the-foundational-knowledge-about-all-of-the-popular-data-structure-that-you-need-to-be-well-versed-in-interviews-2-span2"
-          >
-            <br />
-            Data structures are the problem-solving pillars of coding. Learn all
-            the foundational knowledge about all of the popular data structure
-            that you need, to be well-versed in interviews.
-          </span>
+    <div
+      class="learnsomethingnew-data-structures-are-the-problem-solving-pillars-of-coding-learn-all-the-foundational-knowledge-about-all-of-the-popular-data-structure-that-you-need-to-be-well-versed-in-interviews2"
+    >
+      <span>
+        <span
+          class="learnsomethingnew-data-structures-are-the-problem-solving-pillars-of-coding-learn-all-the-foundational-knowledge-about-all-of-the-popular-data-structure-that-you-need-to-be-well-versed-in-interviews-2-span"
+        >
+          Learnsomethingnew
+          <br />
         </span>
-      </div>
+        <span
+          class="learnsomethingnew-data-structures-are-the-problem-solving-pillars-of-coding-learn-all-the-foundational-knowledge-about-all-of-the-popular-data-structure-that-you-need-to-be-well-versed-in-interviews-2-span2"
+        >
+          <br />
+          Data structures are the problem-solving pillars of coding. Learn all
+          the foundational knowledge about all of the popular data structure
+          that you need, to be well-versed in interviews.
+        </span>
+      </span>
     </div>
   </div>
   <div
@@ -350,7 +349,7 @@ const Home = () => {
       <div class="logo">
         <div class="t"></div>
       </div>
-      <div class="menu">MENU</div>
+      
       <div class="services">SERVICES</div>
       <div class="line-73"></div>
       <div
@@ -433,6 +432,7 @@ const Home = () => {
   <img class="svnit" src={svnit} alt="svnit"/>
  
   <div class="fef-32-f">fef32f</div>
+</div>
 </div>
 
   );
