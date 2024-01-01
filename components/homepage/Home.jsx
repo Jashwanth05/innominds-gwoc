@@ -24,6 +24,7 @@ import './home.css';
 
 const Home = () => {
   return (
+<div class="frame--1">
 <div class="frame-1">
   <div class="group-3">
    <img class="boy-and-girl" src={boyandgirl} alt="boyandgirl"/>
@@ -433,6 +434,217 @@ const Home = () => {
  
   <div class="fef-32-f">fef32f</div>
 </div>
+</div>
+<div class="i-pad-pro-12-9-1">
+<img src={boyandgirl} alt="boyandgirl" />
+  <div class="group-27">
+    <div class="frame-3">
+      <div class="learn-with-love">Learn with Love</div>
+      <div class="the-ultimate-guide-to-ace-sde-interviews">
+        <span>
+          <span class="the-ultimate-guide-to-ace-sde-interviews-span">
+            The Ultimate Guide To
+            <br />
+          </span>
+          <span class="the-ultimate-guide-to-ace-sde-interviews-span2">
+            AceSDE
+          </span>
+          <span class="the-ultimate-guide-to-ace-sde-interviews-span3">
+            Interviews.
+          </span>
+        </span>
+      </div>
+    </div>
+    <div class="frame-6">
+      <div class="watch-video">Watch Video</div>
+    </div>
+    <div class="frame-7">
+      <div class="view-course">View Course</div>
+    </div>
+  </div>
+  <div class="group-28">
+    <div class="frame-12">
+    <img src={user5} alt="user5" />
+    </div>
+    <div class="frame-11">
+      <img src={user4} alt="user4" />
+    </div>
+    <div class="frame-10">
+    <img src={user3} alt="user3" />
+    </div>
+    <div class="frame-9">
+    <img src={user2} alt="user2" />
+    </div>
+    <div class="frame-8">
+    <img src={user1} alt="user1" />
+    </div>
+    <div class="_3500-happy-students">
+      <span>
+        <span class="_3500-happy-students-span">
+          3500+
+          <br />
+        </span>
+        <span class="_3500-happy-students-span2">Happy Students</span>
+      </span>
+    </div>
+  </div>
+  <div class="group-27">
+    <div class="rectangle-14"></div>
+    <div class="frame-5">
+      <div class="_6900-subscribers-on-twitter">
+        <span>
+          <span class="_6900-subscribers-on-twitter-span">
+            6900+
+            <br />
+          </span>
+          <span class="_6900-subscribers-on-twitter-span2">
+            Subscribers
+            <br />
+          </span>
+          <span class="_6900-subscribers-on-twitter-span3">on Twitter</span>
+        </span>
+      </div>
+      <div class="_69-k-subscribers-on-instagram">
+        <span>
+          <span class="_69-k-subscribers-on-instagram-span">
+            69K+
+            <br />
+          </span>
+          <span class="_69-k-subscribers-on-instagram-span2">
+            Subscribers
+            <br />
+          </span>
+          <span class="_69-k-subscribers-on-instagram-span3">on Instagram</span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="group-29">
+    <div class="rectangle-142"></div>
+    <div class="frame-52">
+      <div class="_960-k-subscribers-on-youtube">
+        <span>
+          <span class="_960-k-subscribers-on-youtube-span">
+            960K+
+            <br />
+          </span>
+          <span class="_960-k-subscribers-on-youtube-span2">
+            Subscribers
+            <br />
+          </span>
+          <span class="_960-k-subscribers-on-youtube-span3">on Youtube</span>
+        </span>
+      </div>
+      <div class="_96-m-subscribers-on-linke-in">
+        <span>
+          <span class="_96-m-subscribers-on-linke-in-span">
+            96M+
+            <br />
+          </span>
+          <span class="_96-m-subscribers-on-linke-in-span2">
+            Subscribers
+            <br />
+          </span>
+          <span class="_96-m-subscribers-on-linke-in-span3">on LinkeIn.</span>
+        </span>
+      </div>
+    </div>
+  </div>
+  <div
+    class="why-tarang-tutors-making-learning-easier-and-more-convenient-for-you"
+  >
+    <span>
+      <span
+        class="why-tarang-tutors-making-learning-easier-and-more-convenient-for-you-span"
+      >
+        Why Tarang Tutors?
+        <br />
+      </span>
+      <span
+        class="why-tarang-tutors-making-learning-easier-and-more-convenient-for-you-span2"
+      >
+        Making learning easier and
+        <br />
+        more convenient for you
+      </span>
+    </span>
+  </div>
+  <div class="meet-your-instructor">
+    <span>
+      <span class="meet-your-instructor-span">Meet your</span>
+      <span class="meet-your-instructor-span2">Instructor</span>
+    </span>
+  </div>
+  <div class="tarang">Tarang</div>
+  <div class="founder-tarang-tutors">
+    <span>
+      <span class="founder-tarang-tutors-span">Founder Tarang Tutors</span>
+      <span class="founder-tarang-tutors-span2"></span>
+    </span>
+  </div>
+  <div class="rectangle-20">
+  <img src={instructor} alt="instructor" />
+  </div>
+  <div class="rectangle-27"></div>
+  <div class="know-more">Know more</div>
+  <div class="frame-18">
+    <div class="chemistry">Chemistry</div>
+    <img src={testubes} alt="testubes" />
+  </div>
+  <div class="frame-37">
+    <div class="mathematics">
+      <span>
+        <span class="mathematics-span">
+          Mathematics
+          <br />
+        </span>
+        <span class="mathematics-span2"><br /></span>
+      </span>
+    </div>
+    <img src={maths} alt="maths" />
+  </div>
+  <div class="frame-42">
+  <img src={physics} alt="physics" />
+    <div class="physics2">Physics</div>
+  </div>
+  <div class="frame-35">
+    <div class="logo">
+      <div class="t"></div>
+    </div>
+    <div class="line-7"></div>
+    <div
+      class="copyright-2024-sorting-tarang-tutors-technologies-pvt-ltd-all-rights-reserved"
+    >
+      Copyright © 2024 Sorting Tarang Tutors Technologies Pvt Ltd. All Rights
+      Reserved
+    </div>
+    <div class="email">Email:</div>
+    <div class="logo-side-bar">
+      <div class="tutors">Tutors</div>
+      <div class="tarang2">Tarang</div>
+    </div>
+    <div class="line-11"></div>
+    <div class="menu-about-us-courses-feedback-contact">
+      MENU
+      <br />
+      <br />
+      About Us
+      <br />
+      <br />
+      Courses
+      <br />
+      <br />
+      Feedback
+      <br />
+      <br />
+      Contact
+      <br />
+      <br />
+      <br />
+    </div>
+  </div>
+</div>
+
 </div>
 
   );
