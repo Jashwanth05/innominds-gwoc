@@ -37,10 +37,10 @@ const Home = () => {
             <br />
           </span>
           <span class="the-ultimate-guide-to-ace-sde-interviews-span2">
-            AceSDE
+            JEE
           </span>
           <span class="the-ultimate-guide-to-ace-sde-interviews-span3">
-            Interviews.
+            preparation.
           </span>
         </span>
       </div>
@@ -436,7 +436,7 @@ const Home = () => {
 </div>
 </div>
 <div class="i-pad-pro-12-9-1">
-<img src={boyandgirl} alt="boyandgirl" />
+<img class="boy-and-girl" src={boyandgirl} alt="boyandgirl"/>
   <div class="group-27">
     <div class="frame-3">
       <div class="learn-with-love">Learn with Love</div>
@@ -463,6 +463,7 @@ const Home = () => {
     </div>
   </div>
   <div class="group-28">
+   <div class="usersframe">
     <div class="frame-12">
     <img src={user5} alt="user5" />
     </div>
@@ -477,6 +478,7 @@ const Home = () => {
     </div>
     <div class="frame-8">
     <img src={user1} alt="user1" />
+    </div>
     </div>
     <div class="_3500-happy-students">
       <span>
