@@ -1414,67 +1414,68 @@ top:0%;
 }
 .i-pad-pro-12-9-1 {
   background: #181a1c;
-  width: 1024px;
+  width: 100%;
   height: 5810px;
   position: absolute;
   overflow: hidden;
 }
 .boy-and-girl {
-  width: 800px;
-  height: 696.74px;
+  width: 70%;
+  height:8%;
   position: absolute;
-  left: 114px;
-  top: 124px;
+  left:15%;
+  top: 2%;
 }
 .group-27 {
   position: absolute;
   inset: 0;
 }
 .frame-3 {
-  width: 791px;
-  height: 262.43px;
+  width: 100%;
+  height: -10px;
   position: absolute;
-  left: 156px;
-  top: 893px;
+  left: 10%;
+  top: 11%;
 }
 .learn-with-love {
   color: #ffffff;
-  text-align: center;
+  
   font-family: "InriaSans-Bold", sans-serif;
-  font-size: 100px;
+  font-size: 350%;
   font-weight: 700;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.the-ultimate-guide-to-ace-sde-interviews {
-  color: #ffffff;
+  position: relative;
   text-align: center;
-  font-family: "-", sans-serif;
-  font-size: 60px;
-  font-weight: 400;
-  position: absolute;
-  left: 0px;
-  top: 143px;
-  width: 716px;
+  left:10%;
+  top: 0px;
+  width:50%;
 }
+.the-ultimate-guide-to-ace-sde-interviews{
+  position: relative;
+  top:10%;
+  left:0%;
+  width: 80%;
+}
+
 .the-ultimate-guide-to-ace-sde-interviews-span {
   color: #ffffff;
   font-family: "InriaSans-Regular", sans-serif;
   font-size: 60px;
   font-weight: 400;
+  text-align: center;
 }
 .the-ultimate-guide-to-ace-sde-interviews-span2 {
   color: #ffffff;
   font-family: "InriaSans-Bold", sans-serif;
-  font-size: 60px;
+  font-size: 350%;
   font-weight: 700;
+  text-align:center;
 }
 .the-ultimate-guide-to-ace-sde-interviews-span3 {
   color: #ffffff;
   font-family: "InriaSans-Regular", sans-serif;
   font-size: 60px;
   font-weight: 400;
+  text-align: center;
 }
 .frame-6 {
   background: #3e00a4;
@@ -1485,17 +1486,17 @@ top:0%;
   gap: 10px;
   align-items: center;
   justify-content: center;
-  width: 286.13px;
+  width: 30%;
   height: 92.81px;
   position: absolute;
-  left: 596px;
+  left: 60%;
   top: 1235px;
 }
 .watch-video {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Bold", sans-serif;
-  font-size: 35px;
+  font-size: 150%;
   font-weight: 700;
   position: relative;
 }
@@ -1510,30 +1511,37 @@ top:0%;
   gap: 10px;
   align-items: center;
   justify-content: center;
-  width: 279.5px;
+  width: 30%;
   height: 91.88px;
   position: absolute;
-  left: 162px;
+  left: 10%;
   top: 1235px;
 }
 .view-course {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-Medium", sans-serif;
-  font-size: 35px;
+  font-size: 150%;
   font-weight: 500;
   position: relative;
 }
 .group-28 {
   position: absolute;
   inset: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.usersframe{
+  position: absolute;
+  width:100%;
+  right:10%;
 }
 .frame-12 {
   background: #ffffff;
   border-radius: 100px;
   width: 108.29px;
   height: 97.52px;
-  position: absolute;
+  position: relative;
   left: 136px;
   top: 1392.48px;
   overflow: hidden;
@@ -1541,7 +1549,7 @@ top:0%;
 .user-5 {
   width: 96px;
   height: 96px;
-  position: absolute;
+  position: relative;
   left: -4px;
   top: -4px;
 }
@@ -1617,13 +1625,14 @@ top:0%;
   color: #ffffff;
   text-align: left;
   font-family: "-", sans-serif;
-  font-size: 40px;
+  font-size: 100%;
   font-weight: 400;
   position: absolute;
-  left: 560.93px;
+  left: 50%;
   top: 1384px;
-  width: 346.07px;
+  width: 50%;
   height: 101.76px;
+
 }
 ._3500-happy-students-span {
   color: #ffffff;
