@@ -111,8 +111,8 @@ const Navbar = () => {
     </div>
   </div>
   <div class="logo-side-bar">
-    <div class="tutors">Tutors</div>
-    <div class="tarang">Tarang</div>
+    <div class="tutors5">Tutors</div>
+    <div class="tarang5">Tarang</div>
   </div>
 
 <div class="rectangle-21">
@@ -273,7 +273,7 @@ const Navbar = () => {
   />
 </svg>
         <svg
-          className="menu"  onClick={toggleSidebar}
+          className="menu" onClick={toggleSidebar}
           width="45"
           height="45"
           viewBox="0 0 45 45"
