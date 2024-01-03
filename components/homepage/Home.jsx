@@ -463,29 +463,13 @@ const Home = () => {
     </div>
   </div>
   <div class="group-28">
-   <div class="usersframe">
-    <div class="frame-12">
-    <img src={user5} alt="user5" />
-    </div>
-    <div class="frame-11">
-      <img src={user4} alt="user4" />
-    </div>
-    <div class="frame-10">
-    <img src={user3} alt="user3" />
-    </div>
-    <div class="frame-9">
-    <img src={user2} alt="user2" />
-    </div>
-    <div class="frame-8">
-    <img src={user1} alt="user1" />
-    </div>
-    </div>
+   
     <div class="_3500-happy-students">
-      <span>
+     
         <span class="_3500-happy-students-span">
           3500+
-          <br />
-        </span>
+         
+        
         <span class="_3500-happy-students-span2">Happy Students</span>
       </span>
     </div>
@@ -577,7 +561,7 @@ const Home = () => {
       <span class="meet-your-instructor-span2">Instructor</span>
     </span>
   </div>
-  <div class="tarang">Tarang</div>
+  <div class="tarang5">Tarang</div>
   <div class="founder-tarang-tutors">
     <span>
       <span class="founder-tarang-tutors-span">Founder Tarang Tutors</span>
@@ -589,9 +573,10 @@ const Home = () => {
   </div>
   <div class="rectangle-27"></div>
   <div class="know-more">Know more</div>
+  <div class='subs'>
   <div class="frame-18">
     <div class="chemistry">Chemistry</div>
-    <img src={testubes} alt="testubes" />
+    <img class= 'test-tubes-and-flask'src={testubes} alt="testubes" />
   </div>
   <div class="frame-37">
     <div class="mathematics">
@@ -603,17 +588,16 @@ const Home = () => {
         <span class="mathematics-span2"><br /></span>
       </span>
     </div>
-    <img src={maths} alt="maths" />
+    <img class='maths'src={maths} alt="maths" />
   </div>
   <div class="frame-42">
   <img src={physics} alt="physics" />
     <div class="physics2">Physics</div>
   </div>
+  </div>
   <div class="frame-35">
-    <div class="logo">
-      <div class="t"></div>
-    </div>
-    <div class="line-7"></div>
+   
+   
     <div
       class="copyright-2024-sorting-tarang-tutors-technologies-pvt-ltd-all-rights-reserved"
     >
@@ -622,8 +606,8 @@ const Home = () => {
     </div>
     <div class="email">Email:</div>
     <div class="logo-side-bar">
-      <div class="tutors">Tutors</div>
-      <div class="tarang2">Tarang</div>
+      <div class="tutors6">Tutors</div>
+      <div class="tarang6">Tarang</div>
     </div>
     <div class="line-11"></div>
     <div class="menu-about-us-courses-feedback-contact">
