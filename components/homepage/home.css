@@ -1628,11 +1628,11 @@ top:0%;
   font-size: 100%;
   font-weight: 400;
   position: absolute;
-  left: 50%;
-  top: 1384px;
+  left: 30%;
+  top: 1400px;
   width: 50%;
   height: 101.76px;
-
+  
 }
 ._3500-happy-students-span {
   color: #ffffff;
@@ -1827,14 +1827,14 @@ top:0%;
   font-size: 70px;
   font-weight: 700;
 }
-.tarang {
+.tarang5 {
   color: #ffffff;
   text-align: left;
   font-family: "Inter-ExtraBold", sans-serif;
   font-size: 48px;
   font-weight: 800;
   position: absolute;
-  left: 394px;
+  left:35%;
   top: 5002px;
 }
 .founder-tarang-tutors {
@@ -1920,12 +1920,12 @@ top:0%;
   font-size: 55px;
   font-weight: 700;
   position: absolute;
-  left: 113px;
+  left: 5%;
   top: 367px;
-  width: 351px;
+  width: 100%;
   height: 88px;
 }
-.image-1 {
+.{
   border-radius: 5px;
   width: 513px;
   height: 213px;
@@ -1953,7 +1953,8 @@ top:0%;
   position: absolute;
   left: 0px;
   top: 404px;
-  width: 580px;
+  width: 80%;
+  left:5%;
   height: 58px;
 }
 .mathematics-span {
@@ -2008,6 +2009,7 @@ top:0%;
   position: relative;
   width: 408px;
   height: 91px;
+  left:5%;
 }
 .frame-35 {
   background: #2c3474;
@@ -2084,7 +2086,7 @@ top:0%;
   left: 54px;
   top: 52px;
 }
-.tutors {
+.tutors6 {
   color: #ffffff;
   text-align: left;
   font-family: "ImFellGreatPrimerSc-Regular", sans-serif;
@@ -2099,7 +2101,14 @@ top:0%;
   top: 45.61%;
   height: 55%;
 }
-.tarang2 {
+.test-tubes-and-flask{
+  height:50%;
+  position :absolute;
+  left:8%;
+  width:100%;
+
+}
+.tarang6 {
   color: #ffffff;
   text-align: left;
   font-family: "ImFellGreatPrimerSc-Regular", sans-serif;
@@ -2139,5 +2148,183 @@ top:0%;
   width: 165px;
   height: 300px;
 }
+.meet-your-instructor{
+  width: 69vw;
+  margin: auto;
+}
+.meet-your-instructor-span ,.meet-your-instructor-span2{
+  text-align: center;
+}
 
+.rectangle-20{
+  position: absolute;
+  left: 50%;
+  padding-top: 10px;
+  transform: translate(-50%,0);
+}
+
+.founder-tarang-tutors{
+  width: 69vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.founder-tarang-tutors-span{
+  text-align: center;
+}
+
+.rectangle-27 ,.know-more{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.why-tarang-tutors-making-learning-easier-and-more-convenient-for-you{
+  position: absolute;
+  left: 50%;
+  width: 69vw;
+  transform: translate(-50%,0);
+
+}
+
+.why-tarang-tutors-making-learning-easier-and-more-convenient-for-you-span, .why-tarang-tutors-making-learning-easier-and-more-convenient-for-you-span2{
+  text-align: center;
+}
+.why-tarang-tutors-making-learning-easier-and-more-convenient-for-you-span2{
+  font-size: 8vw;
+}
+
+.subs{
+  display: flex;
+  flex-direction: column;
+  width: 69vw;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  top: 3000px;
+  transform: translate(-50%,0);
+}
+
+.frame-42{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 100%;
+}
+
+.frame-37, .frame-18{
+  width: 69vw;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.frame-35 {
+  background: #2c3474;
+  width: 105%;
+  height: 8.5%;
+  position: absolute;
+  left: 0%;
+  top:91.7%;
+  overflow: hidden;
+  
+}
+
+
+
+.copyright-2024-sorting-tarang-tutors-technologies-pvt-ltd-all-rights-reserved {
+  color: #ffffff;
+  text-align: center;
+  font-family: "ImFellGreatPrimerSc-Regular", sans-serif;
+  font-size: 190%;
+  line-height: 104%;
+  font-weight: 300%;
+  position: absolute;
+  left: 12%;
+  top: 75%;
+  width: 79%;
+}
+.email {
+  color: #ffffff;
+  text-align: left;
+  font-family: "ImFellGreatPrimerSc-Regular", sans-serif;
+  font-size: 190%;
+  line-height: 104%;
+  font-weight: 300%;
+  position: absolute;
+  left: 65%;
+  top: 19%;
+  width: 20%;
+  height: 10%;
+}
+.logo-side-bar {
+  width: 15%;
+  height: 16%;
+  position: absolute;
+  left: 8%;
+  top: 11%;
+  
+}
+.tutors {
+  color: #ffffff;
+  text-align: left;
+  font-family: "ImFellGreatPrimerSc-Regular", sans-serif;
+  font-size: 190%;
+  line-height: 104%;
+  font-weight: 300%;
+  position: absolute;
+  right: 7.64%;
+  left: 35.14%;
+  width: 57.22%;
+  bottom: -0.61%;
+  top: 45.61%;
+  height: 55%;
+}
+.tarang2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "ImFellGreatPrimerSc-Regular", sans-serif;
+  font-size: 190%;
+  line-height: 104%;
+  font-weight: 300%;
+  position: absolute;
+  right: 42.78%;
+  left: 0%;
+  width: 57.22%;
+  bottom: 45%;
+  top: 0%;
+  height: 55%;
+  
+}
+.line-11 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 0.5% 0 0 0;
+  width:28%;
+  height: 10%;
+  position: absolute;
+  left:61.5%;
+  top: 11%;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+  
+}
+.menu-about-us-courses-feedback-contact {
+  color: #ffffff;
+  text-align: left;
+  font-family: "ImFellGreatPrimerSc-Regular", sans-serif;
+  font-size: 180%;
+  line-height: 104%;
+  font-weight: 210%;
+  position: absolute;
+  left: 44%;
+  top: 12%;
+  width: 20%;
+  height:15%;
+}
+.maths{
+  position:absolute;
+  width:100%;
+  left:0%;
+
+}
 }
