@@ -1,9 +1,9 @@
-
+.navbar{
+  position: fixed;
+  width: 100%;
+}
 @media (min-width :1280px){
-  .navbar{
-    position: fixed;
-    width: 100%;
-  }
+  
   .sidebar {
     display: none;
   }
@@ -194,6 +194,7 @@
   font-weight: 400;
   position: relative;
   right:90%;
+  
 }
 
 
@@ -456,7 +457,9 @@
   top: 18px;
   overflow: visible;
 }
-
+.menu.hidden {
+  display: none;
+}
 .vector3-mini {
   height: auto;
   position: absolute;
@@ -464,8 +467,8 @@
   left: 89.58%;
   width: 4.25%;
  
-  top:-8.5%;
-  height: 27.91%;
+  top:40.5%;
+  height: 47.91%;
   overflow: visible;
 }
 
@@ -477,7 +480,7 @@
   .sidebar {
     display: none;
     transform: translateX(-100%); /* Move the sidebar off-screen */
-    transition: transform 0.3s ease-out; /* Add a transition effect on the transform property */
+    transition: visible 0.3s ease-out; /* Add a transition effect on the transform property */
 }
 
 .sidebar.visible {
@@ -719,6 +722,7 @@
   top: 5.34px;
   overflow: visible;
 }
+
 
 
   
