@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 
+import NavBar from '../../components/Home';
 const Navbar = () => {
   const [sidebarVisible, setSidebarVisible] = useState(false);
 
@@ -111,8 +112,8 @@ const Navbar = () => {
     </div>
   </div>
   <div class="logo-side-bar">
-    <div class="tutors5">Tutors</div>
-    <div class="tarang5">Tarang</div>
+    <div class="tutors">Tutors</div>
+    <div class="tarang">Tarang</div>
   </div>
 
 <div class="rectangle-21">
@@ -272,26 +273,10 @@ const Navbar = () => {
     fill="white"
   />
 </svg>
-        <svg
-          className="menu" onClick={toggleSidebar}
-          width="45"
-          height="45"
-          viewBox="0 0 45 45"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g clipPath="url(#clip0_104_614)">
-            <path
-              d="M5.625 33.75H39.375V30H5.625V33.75ZM5.625 24.375H39.375V20.625H5.625V24.375ZM5.625 11.25V15H39.375V11.25H5.625Z"
-              fill="white"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_104_614">
-              <rect width="45" height="45" fill="white" />
-            </clipPath>
-          </defs>
-        </svg>
+        <div
+          className="menu"> 
+            <NavBar/>
+        </div>
 
 
         </div>
