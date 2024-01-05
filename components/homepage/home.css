@@ -1,4 +1,10 @@
-
+.bttn{
+  color: rgb(165, 86, 213);
+}
+.bttn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgba(148, 96, 231, 0.25), 0 10px 10px rgba(88, 46, 244, 0.22), 0 0 120px -10px violet;
+}
 .frame-1,
 .frame-1 * {
   box-sizing: border-box;
