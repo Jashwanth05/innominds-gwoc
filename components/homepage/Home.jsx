@@ -20,7 +20,7 @@ import user4 from '../../components/photos and videos/user-40.png';
 import user5 from '../../components/photos and videos/user-50.png';
 import youtube from '../../components/photos and videos/youtube-icon0.png';
 
-import './home.css';
+import './Home.css';
 
 const Home = () => {
   return (
@@ -45,7 +45,7 @@ const Home = () => {
         </span>
       </div>
     </div>
-    <div class="frame-6">
+    <div class="frame-6 bttn z-10">
       <div class="watch-video">Watch Video</div>
     </div>
     <div class="frame-7">
